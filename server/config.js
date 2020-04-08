@@ -1,7 +1,7 @@
 DEBUG = true;
 
 exports.db_client = 'pg';
-exports.db_url = process.env.DATABASE_URL || 'postgresql://localhost/quizlive';
+exports.db_url = process.env.YUGABYTECLOUD_STAGING_YSQL_CONNECT_URI || 'postgresql://localhost/quizlive';
 exports.DEBUG = DEBUG;
 exports.SQL_DEBUG = false;
 
