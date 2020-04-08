@@ -5,7 +5,7 @@
   "logo": "https://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "angularjs","ionic","force.com"],
   "addons": [
-    "heroku-postgresql"
+    "yugabytecloud-staging:test"
   ],
   "scripts": {
     "postdeploy": "./bootstrap.sh"
